@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  margin: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  margin: 0 0 0 20px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px;
+
+  left: 130px;
+  text-align: center;
+  height: 60px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin-left: 20px;
+}
+
+#myCarousel {
+  border: 2px solid black;
+} 
+
+
