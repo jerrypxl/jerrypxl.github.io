@@ -25,7 +25,7 @@ footer {
   height: 60px;
 }
 
-footer .col-sm-8 {
+footer .col-xs-8 {
   display: flex;
 }
 
@@ -38,6 +38,15 @@ footer .col-sm-8 {
 
 #myCarousel {
   border: 2px solid black;
+} 
+
+#picoexplorer img {
+  height: 250px;
+  width: 250px;
+}
+
+#about {
+  margin-top: 10px;
 } 
 
 

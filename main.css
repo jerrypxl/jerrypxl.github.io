@@ -27,7 +27,7 @@ footer {
   height: 60px;
 }
 
-footer .col-sm-8 {
+footer .col-xs-8 {
   display: flex;
 }
 
@@ -56,11 +56,16 @@ footer .col-sm-8 {
 }
 
 #bio {
-  margin-top: -1px;
+  margin-top: -10px;
 }
 
 #content {
   padding-bottom: 60px;
+}
+
+#resume a {
+  color: #606060;
+  text-decoration: none;
 }
 
 
