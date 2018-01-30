@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-bottom: 60px;
 }
 
 header {
@@ -18,16 +24,14 @@ header p {
 
 footer {
   font-size: 12px;
-  padding: 20px;
-
-  left: 130px;
-  text-align: center;
-  height: 60px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  line-height: 40px;
+  background-color: #fff;
 }
 
-footer .col-xs-8 {
-  display: flex;
-}
 
 .footer-icon {
   width: 32px;
@@ -40,13 +44,17 @@ footer .col-xs-8 {
   border: 2px solid black;
 } 
 
+#myCarousel img {
+  height: 500px;
+}
+
 #picoexplorer img {
   height: 250px;
   width: 250px;
 }
 
 #about {
-  margin-top: 10px;
+  margin-top: 15px;
 } 
 
 

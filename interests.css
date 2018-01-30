@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-bottom: 60px;
 }
 
 header {
@@ -22,7 +28,7 @@ figure {
 }
 
 figure img {
-  width: 260px;
+  width: 255px;
   height: 200px;
 }
 
@@ -33,16 +39,13 @@ figure figcaption {
 
 footer {
   font-size: 12px;
-  padding: 20px;
-  left: 130px;
-  text-align: center;
-  height: 60px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  line-height: 40px;
+  background-color: #fff;
 }
-
-footer .col-sm-8 {
-  display: flex;
-}
-
 
 .footer-icon {
   width: 32px;

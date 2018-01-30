@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-bottom: 60px;
 }
 
 header {
@@ -19,16 +25,11 @@ header p {
 
 footer {
   font-size: 12px;
-  padding: 20px;
+  padding: 10px;
   position: absolute;
   bottom: 0;
-  left: 130px;
-  text-align: center;
-  height: 60px;
-}
-
-footer .col-xs-8 {
-  display: flex;
+  height: 50px;
+  line-height: 40px;
 }
 
 .footer-icon {
@@ -38,35 +39,33 @@ footer .col-xs-8 {
   margin-left: 20px;
 }
 
-.col-centered{
-  float: none;
-  margin: 0 auto;
-}
-
 .link-icon {
   width: 32px;
   height: 32px;
 }
 
-#name {
+.resume {
+  color: #606060;
+  text-decoration: none;
+}
+
+#name .col-12 {
+  display: flex;
+  justify-content: center;
+}
+
+
+#name .col-12 p {
   border-bottom: 2px solid #DEDEDE;
   margin-bottom: 20px;
-  text-align: center;
   font-size: 350%;
 }
 
 #bio {
-  margin-top: -10px;
+  margin-top: -2px;
 }
 
-#content {
-  padding-bottom: 60px;
-}
 
-#resume a {
-  color: #606060;
-  text-decoration: none;
-}
 
 
 

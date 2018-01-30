@@ -1,81 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Projects</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="contact.css">
-  <link rel="stylesheet" type="text/css" href="navbar.css">
-</head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+  </head>
 
-<body>
-  <header class="container">
-    <div class="row">
-      <nav class="col-xs-12 cl-effect-18">
-        <p><a href="index.html">About Me</a></p>
-        <p><a href="projects.html">Projects</a></p>
-        <p><a href="interests.html">Interests</a></p>
-        <p><a href="contact.html">Contact</a></p>
-      </nav>
-    </div>
-  </header>
-
-  <section class="container" id="content">
-    <div class="row">
-      <div class="col-xs-12">
-        <font size="6"> <p>Contact Me</p> </font>
-        <p><font size="4">Phone: (626) 510-5600</font></p>   
+  <body>
+    <header class="container">
+      <div class="row justify-content-end cl-effect-18">
+        <nav class="col">
+          <p><a href="index.html">About Me</a></p>
+          <p><a href="projects.html">Projects</a></p>
+          <p><a href="interests.html">Interests</a></p>
+          <p><a href="contact.html">Contact</a></p>
+        </nav>
       </div>
-    </div>
+    </header>
 
-    <div class="row">
-      <div class="col-xs-12">
-        <a href="mailto:jesun5@hotmail.com?subject=Hey, I saw your website...">
-          <img class="link-icon" src="images/email-icon.png"><font size="3"> Email Me</font>
-        </a>
+    <section class="container" id="content">
+      <div class="row">
+        <div class="col flex">
+         <p><font size="6">Contact Me</font></p>
+        </div>
       </div>
-    </div>
-
-    <p style="margin-top: 8px; margin-bottom: 2px;"><font size="2">I am currently located: </font></p>
-
-    <div class="row"> 
-      <div id="map">
+      <div class="row">
+        <div class="col flex">
+          <p><font size="4">Phone: (626) 510-5600</font></p>   
+        </div>
       </div>
-    </div>
 
-
-    <script>
-      function initMap() {
-        var OC = {lat: 33.8366, lng: -117.9143};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 9,
-          center: OC
-        });
-        var marker = new google.maps.Marker({
-          position: OC,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxtj388sScXPHamW7ZQEoKhuW-5yyyXU8&callback=initMap">
-    </script>
-  </section>
-
-  <footer class="container"> 
-    <div class="row">
-      <div class="col-xs-8">
-        <p>&copy; 2017 Jerry Liu</p>
+      <div class="row">
+        <div class="col flex">
+          <a href="mailto:jesun5@hotmail.com?subject=Hey, I saw your website...">
+            <img class="link-icon" src="images/email-icon.png"><font size="3"> Email Me</font>
+          </a>
+        </div>
       </div>
-      <div class="col-xs-4">
-        <a href="https://github.com/szw12345"> <img class="footer-icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"> </a>
 
-        <a href="https://www.linkedin.com/in/jerry-liu-112029125/"> <img class="footer-icon" src="https://image.flaticon.com/icons/png/512/174/174857.png"> </a>
+      <div class="row">
+        <div class="col flex">
+          <p style="margin-top: 8px; margin-bottom: 2px;"><font size="2">I am currently located: </font></p>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+
+
+      <div class="row flex"> 
+        <div id="map">
+        </div>
+      </div>
+
+
+      <script>
+        function initMap() {
+          var OC = {lat: 33.8366, lng: -117.9143};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 9,
+            center: OC
+          });
+          var marker = new google.maps.Marker({
+            position: OC,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxtj388sScXPHamW7ZQEoKhuW-5yyyXU8&callback=initMap">
+      </script>
+    </section>
+
+    <footer class="container fixed-bottom"> 
+      <div class="row">
+        <div class="col">
+          <p>&copy; 2017 Jerry Liu</p>
+        </div>
+        <div class="col">
+          <a href="https://github.com/szw12345"> <img class="footer-icon" src="https://image.flaticon.com/icons/svg/25/25231.svg"> </a>
+
+          <a href="https://www.linkedin.com/in/jerry-liu-112029125/"> <img class="footer-icon" src="https://image.flaticon.com/icons/png/512/174/174857.png"> </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 
 </html>
