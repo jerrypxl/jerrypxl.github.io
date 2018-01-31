@@ -32,6 +32,9 @@ footer {
   background-color: #fff;
 }
 
+footer p {
+  color: #606060;
+}
 
 .footer-icon {
   width: 32px;

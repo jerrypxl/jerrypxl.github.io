@@ -32,6 +32,10 @@ footer {
   line-height: 40px;
 }
 
+footer p {
+  color: #606060;
+}
+
 .footer-icon {
   width: 32px;
   height: 32px;
@@ -47,6 +51,7 @@ footer {
 .resume {
   color: #606060;
   text-decoration: none;
+  margin-left: 65px;
 }
 
 #name .col-12 {
@@ -65,7 +70,9 @@ footer {
   margin-top: -2px;
 }
 
-
+#test {
+  display: flex;
+}
 
 
 
