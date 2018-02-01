@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  margin: 20px;
 }
 
 header nav {
@@ -58,8 +58,11 @@ footer p {
   margin-left: 20px;
 }
 
+#music {
+  margin-bottom: 40px;
+}
+
 #outdoors {
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 
