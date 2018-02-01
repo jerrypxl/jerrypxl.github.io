@@ -51,7 +51,6 @@ footer p {
 .resume {
   color: #606060;
   text-decoration: none;
-  margin-left: 65px;
 }
 
 #name .col-12 {
@@ -70,9 +69,7 @@ footer p {
   margin-top: -2px;
 }
 
-#test {
-  display: flex;
-}
+
 
 
 
